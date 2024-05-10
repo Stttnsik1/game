@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DYNYA CLICK</title>
   <style>
 	body {
@@ -27,14 +27,21 @@
 	  z-index: -1;
 	}
     nav {
-    margin: 20px auto; /* Добавляем отступы сверху и снизу, а также центрируем по горизонтали */
+    margin: 20px auto; 
     padding: 10px;
     border: 3px solid rgb(53, 51, 51);
     border-radius: 10px;
     background-color: #333232;
     color: #ffffff;
-    max-width: 50%; /* Устанавливаем максимальную ширину */
-    margin-top: 25px; /* Отступ сверху */
+    max-width: 50%; 
+    margin-top: 25px;
+    }
+    button.MarketButton {
+    background-color: #4d4c4c;
+    border: 3px solid rgb(53, 51, 51);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
     }
   </style>
 </head>
@@ -49,7 +56,7 @@
 	<img src='https://i.postimg.cc/XYPgc8KB/msg1029594875-176900.png' width="600" height="600">
   </button>
 
-  <nav><button>Market</button></nav>
+  <nav><button class="MarketButton">Market</button></nav>
 
   <script>
 	let score = 0;
